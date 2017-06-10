@@ -1,0 +1,317 @@
+{% extends 'elab.html' %}
+{% block title %}Etapes{% endblock %}
+{% block nav %}
+    <div class="menu">
+        <ul>
+            <li><a href="http://labdz.info/vlab/" target="_self" >Home</a></li>
+            <li><a href="{% url 'facereco.views.home' %}" target="_self" >Introduction</a></li>
+            <li><a href="{% url 'facereco.views.step' %}">Etapes</a></li>
+            <li><sel><a href="{% url 'facereco.views.experiance' %}" target="_self" >Experimentation</a></sel></li>
+            <li><a href="{% url 'facereco.views.propos' %}" target="_self" >A propos</a></li>
+	    </ul>
+    </div>
+{% endblock %}
+{% block content %}
+
+
+
+    <div class="exp-container" >
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".exp-container div").each(function (e) {
+                if (e != 0)
+                    $(this).hide();
+            });
+            $('#next').click(function() {
+                $('.current').removeClass('current').hide().next().show().addClass('current');
+                if ($('.current').hasClass('last')) {
+                    $('#next').attr('disabled', true);
+                }
+                $('#prev'). attr('disabled', null);
+            });
+
+            $('#prev').click(function() {
+                $('.current').removeClass('current').hide().prev().show().addClass('current');
+                if ($('.current').hasClass('first')) {
+                    $('#prev').attr('disabled', true);
+                }
+                $('#next').attr('disabled', null);
+            });
+        });
+    </script>
+        {% if valid %}
+
+        <center>
+            <button id="prev" disabled="disabled">Prev</button>
+            <button id="next">Next</button>
+        </center>
+        <hr />
+        <div id="div1" class="first current">
+            <h3>Etablir la matrice des visages :</h3>
+            <hr/>
+            <p>
+		Dans cette première étape, on transforme chaque visage par un vecteur colonne. 
+	Une fois cette opération pour tous les visages on rassemble tous les vecteurs dans une seule 
+	matrice.
+		</p>
+            <center>
+                <img src="{{ MEDIA_URL }}Database/BBAFaces/happy/s01.jpg.jpg">
+                <img src="{{ MEDIA_URL }}Database/BBAFaces/bottomlight/s06.jpg.jpg">
+                ......
+                <img src="{{ MEDIA_URL }}Database/BBAFaces/glasses/s07.jpg.jpg">
+            </center>
+            <p>
+		Ces images de taille, 124 x 92 pixels,  ainsi que toutes les images de la base de données
+	 doivent  être transformées chacune par un vecteur. 
+
+		</p>
+            <p><u>Voici la matrice A obtenue :</u> (chaque colonne représente un visage)</p>
+
+                <table>
+                    <tr>
+                        <td>{{ database.faces.0.0 }}</td>
+                        <td>{{ database.faces.0.1 }}</td>
+                        <td>{{ database.faces.0.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.faces.0.7 }}</td>
+                        <td>{{ database.faces.0.8 }}</td>
+                        <td>{{ database.faces.0.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.faces.1.0 }}</td>
+                        <td>{{ database.faces.1.1 }}</td>
+                        <td>{{ database.faces.1.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.faces.1.7 }}</td>
+                        <td>{{ database.faces.1.8 }}</td>
+                        <td>{{ database.faces.1.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.faces.3.0 }}</td>
+                        <td>{{ database.faces.3.1 }}</td>
+                        <td>{{ database.faces.3.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.faces.3.7 }}</td>
+                        <td>{{ database.faces.3.8 }}</td>
+                        <td>{{ database.faces.3.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.faces.11404.0 }}</td>
+                        <td>{{ database.faces.11404.1 }}</td>
+                        <td>{{ database.faces.11404.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.faces.11404.7 }}</td>
+                        <td>{{ database.faces.11404.8 }}</td>
+                        <td>{{ database.faces.11404.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.faces.11405.0 }}</td>
+                        <td>{{ database.faces.11405.1 }}</td>
+                        <td>{{ database.faces.11405.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.faces.11406.7 }}</td>
+                        <td>{{ database.faces.11406.8 }}</td>
+                        <td>{{ database.faces.11406.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.faces.11407.0 }}</td>
+                        <td>{{ database.faces.11407.1 }}</td>
+                        <td>{{ database.faces.11407.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.faces.11407.7 }}</td>
+                        <td>{{ database.faces.11407.8 }}</td>
+                        <td>{{ database.faces.11407.9 }}</td>
+                    </tr>
+                </table>
+		<p>Vous pouvez télécharger la matrice <a href="{{ path }}/faces.txt" download="faces.txt">
+			<button>Télécharger</button></a></p>
+        </div>
+
+        <div id="div2">
+            <h3>Calculer le visage moyen :</h3>
+                <hr/>
+                <table>
+                    <tr><td>{{ database.visage_moyen.0.0 }}</td></tr>
+                    <tr><td>{{ database.visage_moyen.1.0 }}</td></tr>
+                    <tr><td>{{ database.visage_moyen.2.0 }}</td></tr>
+                    <tr><td>...</td></tr>
+                    <tr><td>{{ database.visage_moyen.11405.0 }}</td></tr>
+                    <tr><td>{{ database.visage_moyen.11406.0 }}</td></tr>
+                    <tr><td>{{ database.visage_moyen.11407.0 }}</td></tr>
+                </table>
+		<p>Vous pouvez télécharger le vecteur obtenue <a href="{{ path }}/mean_face.txt" download="mean_face.txt">
+			<button>Télécharger</button></a></p>
+
+            <p>Voici le resultat :</p>
+            <center><img src="{{ path }}/moy.jpg"></center>
+        </div>
+
+        <div id="div3">
+            <h3>calculer la diffrence entre chaque visage dans la base de données et le visage moyen : </h3>
+                <hr/>
+                <table>
+                    <tr>
+                        <td>{{ database.ecart_face.0.0 }}</td>
+                        <td>{{ database.ecart_face.0.1 }}</td>
+                        <td>{{ database.ecart_face.0.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.ecart_face.0.7 }}</td>
+                        <td>{{ database.ecart_face.0.8 }}</td>
+                        <td>{{ database.ecart_face.0.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.ecart_face.1.0 }}</td>
+                        <td>{{ database.ecart_face.1.1 }}</td>
+                        <td>{{ database.ecart_face.1.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.ecart_face.1.7 }}</td>
+                        <td>{{ database.ecart_face.1.8 }}</td>
+                        <td>{{ database.ecart_face.1.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.ecart_face.3.0 }}</td>
+                        <td>{{ database.ecart_face.3.1 }}</td>
+                        <td>{{ database.ecart_face.3.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.ecart_face.3.7 }}</td>
+                        <td>{{ database.ecart_face.3.8 }}</td>
+                        <td>{{ database.ecart_face.3.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.ecart_face.11404.0 }}</td>
+                        <td>{{ database.ecart_face.11404.1 }}</td>
+                        <td>{{ database.ecart_face.11404.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.ecart_face.11404.7 }}</td>
+                        <td>{{ database.ecart_face.11404.8 }}</td>
+                        <td>{{ database.ecart_face.11404.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.ecart_face.11405.0 }}</td>
+                        <td>{{ database.ecart_face.11405.1 }}</td>
+                        <td>{{ database.ecart_face.11405.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.ecart_face.11406.7 }}</td>
+                        <td>{{ database.ecart_face.11406.8 }}</td>
+                        <td>{{ database.ecart_face.11406.9 }}</td>
+                    </tr>
+                    <tr>
+                        <td>{{ database.ecart_face.11407.0 }}</td>
+                        <td>{{ database.ecart_face.11407.1 }}</td>
+                        <td>{{ database.ecart_face.11407.2 }}</td>
+                        <td>...</td>
+                        <td>{{ database.ecart_face.11407.7 }}</td>
+                        <td>{{ database.ecart_face.11407.8 }}</td>
+                        <td>{{ database.ecart_face.11407.9 }}</td>
+                    </tr>
+                </table>
+		<p>Vous pouvez télécharger la matrice <a href="{{ path }}/ecart_face.txt" download="ecart_face.txt">
+			<button>Télécharger</button></a></p>
+        </div>
+
+        <div id="div4">
+            <h3>Faces propres (Eigenfaces): </h3>
+            <hr/>
+            <p>
+		Enfin, vous obtenez les faces propres (Eigenfaces).
+		</p>
+
+            <center>
+                <img src="{{ path }}/eigenface0.jpg">
+                <img src="{{ path }}/eigenface1.jpg">
+                <img src="{{ path }}/eigenface2.jpg">
+                ....
+                <img src="{{ path }}/eigenface3.jpg">
+            </center>
+        </div>
+
+        {% endif %}
+
+            {% if not valid %}
+                <h2 style="padding-bottom: 5px; border-bottom: 1px dashed #4f461e;">Charger une image:</h2>
+                <img src="{{ MEDIA_URL }}unknown.png" class="face" />
+                <form action="{% url "facereco.views.experiance" %}" method="post" enctype="multipart/form-data" class="form">
+                    {% csrf_token %}
+                    {{ form.as_p }}
+                <input type="submit" value="Upload" />
+                </form>
+            {% endif %}
+            {% if dim_false %}
+                 <section style="background-color: red; color: white; padding: 5px; border-radius: 3px;">
+                     La taille de l’image n’est pas conforme (124 x 92), veuillez redimensionner votre image
+			 en passant par l’expérimentation de redimensionnement.
+ 			Cliquez sur le lien suivant pour réaliser cela : 
+                     <ul>
+                        <li><a href="http://labdz.info/vlab/exp1/">Acquisition et redimensionnement d’une image</a></li>
+                     </ul>
+                 </section>
+
+            {% endif %}
+
+        {% if valid %}
+
+            <div id="div5">
+                <h3>transformation du nouveau visage en compsantes des faces propres (Eigenface).</h3>
+                <hr/>
+                <h2 style="padding-bottom: 5px; border-bottom: 1px dashed #4f461e;">L'image chargé :</h2>
+                <img src="{{ path }}/photo.jpg" class="face"/>
+
+		
+
+                        <p>Voici le résultat obtenue: {{ omega_new.0 }}, {{ omega_new.1 }}, {{ omega_new.2 }} ... etc</p>
+            </div>
+
+            <div id="div6">
+
+                <h3> Calculer la distance euclidienne entre les visages</h3>
+                    <hr/>
+                        <img src="{{ path }}/dist.png" width="500px">
+
+                        <p>la distance minimale est:</p>
+
+                        <p>d({{ database.min.0 }})={{ database.min.1 }}</p>
+
+            </div>
+
+            <div id="div7" class="last">
+                <h3>Résultat de la reconnaissance :</h3>
+                    <hr/>
+
+                        {%if visage_trouve %}
+                            <img src="{{ path }}/reco.jpg" class="face"/>
+                            <p>Cette personne a été identifié</p>
+                        {% else %}
+                            <p>Cette personne n’est pas disponible dans la bas de données.
+				 Vous pouvez l’ajouter en passant 
+				par l’étape d'ajout d'une personne du vLab. <br>
+                                <a href='http://labdz.info/vlab/exp3/'>Ajout d’une personne</a>
+                            </p>
+                        {% endif %}
+
+
+            </div>
+
+
+        {% endif %}
+
+    </div>
+
+{% endblock %}

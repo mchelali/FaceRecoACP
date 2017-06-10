@@ -1,0 +1,24 @@
+{% extends 'elab.html' %}
+{% block title %}Introduction{% endblock %}
+{% block nav %}
+    <div class="menu">
+        <ul>
+            <li><a href="http://labdz.info/vlab/" target="_self" >Home</a></li>
+            <li><sel><a href="{% url 'facereco.views.home' %}" target="_self" >Introduction</a></sel></li>
+            <li><a href="{% url 'facereco.views.step' %}">Etapes</a></li>
+            <li><a href="{% url 'facereco.views.experiance' %}" target="_self" >Experimentation</a></li>
+            <li><a href="{% url 'facereco.views.propos' %}" target="_self" >A propos</a></li>
+	    </ul>
+    </div>
+{% endblock %}
+{% block content %}
+
+    <p>
+        Dans cette étape on voit comment est réalisée la reconnaissance de visage en utilisant la méthode ACP.
+ Cette méthode a pour objectif de réduire la dimension de l'espace des visages sans perte d'informations puis vérifie
+ si le visage inséré se trouve parmi les visages de notre base de données ou non.
+ L’image qui sera entrée doit avoir une taille égale à 124 x 92 pixels,
+ on doit donc passer au préalable par la phase de redimensionnement avant de procéder par cette étape. 
+    </p>
+
+{% endblock %}

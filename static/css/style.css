@@ -1,0 +1,112 @@
+html, body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+.ACP{
+    position: absolute;
+    vertical-align: middle;
+}
+.home_img{
+    width: 100%;
+    color: transparent;
+    border-top: solid 2px dodgerblue;
+    border-bottom: solid 1px dodgerblue;
+    opacity: 0.29;
+}
+.header{
+    background-color: dodgerblue;
+    border-bottom: #000000 solid;
+    margin-bottom: 10px;
+    height: 50px;
+}
+.page_width{
+    width: 70%;
+    vertical-align: middle;
+    margin: auto;
+}
+.all{
+    min-height: 100%;
+    position: relative;
+    background-color: #f5f5f5;
+}
+.main{
+    padding-bottom: 80px;
+}
+.footer{
+    background-color: dodgerblue;
+    border-top: solid #000000;
+    right: 0;
+    left:0;
+    position: absolute;
+    bottom: 0;
+    font-family: monospace;
+    font-size: 12px;
+}
+.right_foot{
+    vertical-align: middle;
+    float: right;
+}
+.left_foot{
+    vertical-align: middle;
+    float: left;
+}
+.logo{
+    height: 2em;
+    position: absolute;
+    vertical-align: middle;
+    float: left;
+    top: 0.5em;
+}
+.navbar{
+    list-style-type: none;
+    float: right;
+}
+.navbar_ul{
+    float: right;
+    height: 50px;
+}
+.navbar li{
+    display: inline-block;
+    list-style: none;
+
+    background-color: dodgerblue;
+
+}
+.navbar a{
+    text-decoration: none;
+    margin: 0 5px;
+    font-family: monospace;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 5px;
+    vertical-align: middle;
+}
+.navbar li:hover{
+    color: #f4f4f4;
+    text-decoration: none;
+    background-color: #3e3e3e;
+
+}
+.corps{
+    margin: auto;
+    border-top: solid 2px dodgerblue;
+    border-bottom: solid 1px dodgerblue;;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+}
+.step{
+    width: 60%;
+    margin: auto;
+}
+.face{
+    max-height: 200px;
+}
+.steps{
+    max-width: 60%;
+    min-width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+

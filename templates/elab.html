@@ -1,0 +1,39 @@
+{% load static %}
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="StyleSheet" href="{% static 'css/elab.css' %}" />
+<script type="text/javascript" src="{% static 'jquery.min.js' %}"> </script>
+<title> UBBA Virtual Lab | {% block title %}{% endblock %}</title>
+
+<style type="text/css">
+.lightbox-img img {
+	border: 1px solid #BBB;
+	padding: 2px;
+	margin: 10px 20px 10px 0;
+	vertical-align: top;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <div class="header"><a class="logos"></a><h1>UBBA Virutal Lab</h1></div>
+    {% block nav %}{% endblock %}
+
+    <br/>
+
+    {% block content %}{% endblock %}
+    <!--<div class="header-rec"><a>Underconstruction...</a></div>-->
+
+    <footer>
+        <hr/>
+
+        <div style="float: left">Webmaster: <a href="mailto:belhadj-foudil@fmibba.net">Belhadj Foudil</a></div>
+        <div style="float: right"> &copy; 2015 | <a href="http://www.univ-bba.dz">University of Bordj Bou Arreridj</a></div>
+
+    </footer>
+</div>
+</body>
+</html>

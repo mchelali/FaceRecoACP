@@ -1,0 +1,16 @@
+[22/May/2016 11:52:58] "GET / HTTP/1.1" 200 1871
+[22/May/2016 11:52:58] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[22/May/2016 11:52:58] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[22/May/2016 11:52:58] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[22/May/2016 11:52:58] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[22/May/2016 11:52:58] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[22/May/2016 11:52:58] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[22/May/2016 11:52:59] "GET /favicon.ico HTTP/1.1" 404 2699
+[22/May/2016 11:52:59] "GET /favicon.ico HTTP/1.1" 404 2699
+[22/May/2016 11:53:02] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[22/May/2016 11:53:03] "GET /experiance HTTP/1.1" 200 2955
+[22/May/2016 11:53:03] "GET /media/unknown.png HTTP/1.1" 200 10977
+[22/May/2016 11:53:03] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[22/May/2016 11:53:13] "GET / HTTP/1.1" 200 1871
+[22/May/2016 11:53:14] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[28/May/2016 12:30:11] "GET / HTTP/1.1" 200 1871

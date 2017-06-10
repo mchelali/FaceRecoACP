@@ -1,0 +1,17 @@
+{% extends 'elab.html' %}
+{% block title %}Etapes{% endblock %}
+{% block nav %}
+    <div class="menu">
+        <ul>
+            <li><a href="http://labdz.info/vlab/" target="_self" >Home</a></li>
+            <li><a href="{% url 'facereco.views.home' %}" target="_self" >Introduction</a></li>
+            <li><a href="{% url 'facereco.views.step' %}">Etapes</a></li>
+            <li><a href="{% url 'facereco.views.experiance' %}" target="_self" >Experimentation</a></li>
+            <li><sel><a href="{% url 'facereco.views.propos' %}" target="_self" >A propos</a></sel></li>
+	    </ul>
+    </div>
+{% endblock %}
+{% block content %}
+
+    <p>Analyse en composantes principales pour la reconnaissance du visage <strong>Ver 1.0</strong></p>
+{% endblock %}

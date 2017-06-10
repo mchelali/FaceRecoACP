@@ -1,0 +1,496 @@
+/usr/local/lib/python2.7/dist-packages/pkg_resources/__init__.py:1224: UserWarning: /home/ad3l/.python-eggs is writable by group/others and vulnerable to attack when used with get_resource_filename. Consider a more secure location (set with .set_extraction_path or the PYTHON_EGG_CACHE environment variable).
+  warnings.warn(msg, UserWarning)
+
+[31/May/2015 10:37:33] "GET / HTTP/1.1" 200 1871
+[31/May/2015 10:37:33] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[31/May/2015 10:37:35] "GET /experiance HTTP/1.1" 200 2955
+[31/May/2015 10:37:35] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[31/May/2015 10:37:46] "POST /experiance HTTP/1.1" 200 3509
+[31/May/2015 10:37:46] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+/usr/lib/pymodules/python2.7/matplotlib/__init__.py:923: UserWarning:  This call to matplotlib.use() has no effect
+because the the backend has already been chosen;
+matplotlib.use() must be called *before* pylab, matplotlib.pyplot,
+or matplotlib.backends is imported for the first time.
+
+  if warn: warnings.warn(_use_error_msg)
+
+[31/May/2015 10:38:06] "POST /experiance HTTP/1.1" 200 11221
+[31/May/2015 10:38:06] "GET /media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb/moy.jpg HTTP/1.1" 200 2589
+[31/May/2015 10:38:06] "GET /media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb/eigenface2.jpg HTTP/1.1" 200 2943
+[31/May/2015 10:38:06] "GET /media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb/eigenface1.jpg HTTP/1.1" 200 3418
+[31/May/2015 10:38:06] "GET /media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb/eigenface3.jpg HTTP/1.1" 200 4810
+[31/May/2015 10:38:06] "GET /media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb/eigenface0.jpg HTTP/1.1" 200 476
+[31/May/2015 10:38:06] "GET /media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb/photo.jpg HTTP/1.1" 200 5112
+[31/May/2015 10:38:06] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[31/May/2015 10:38:06] "GET /media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb/dist.png HTTP/1.1" 200 19414
+[02/Jun/2015 04:31:15] "GET /robots.txt HTTP/1.1" 404 2696
+[02/Jun/2015 04:31:16] "GET /experiance HTTP/1.1" 200 2955
+[02/Jun/2015 04:32:46] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[02/Jun/2015 04:32:47] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[02/Jun/2015 06:32:31] "GET / HTTP/1.1" 200 1871
+[04/Jun/2015 18:04:17] "GET / HTTP/1.1" 200 1871
+[04/Jun/2015 18:04:18] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[04/Jun/2015 18:04:18] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[04/Jun/2015 18:04:19] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[04/Jun/2015 18:04:19] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[04/Jun/2015 18:04:19] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[04/Jun/2015 18:04:20] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[04/Jun/2015 18:04:21] "GET /favicon.ico HTTP/1.1" 404 2699
+[09/Jun/2015 12:27:54] "GET /robots.txt HTTP/1.1" 404 2696
+[09/Jun/2015 12:27:56] "GET / HTTP/1.1" 200 1871
+[09/Jun/2015 12:29:09] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[09/Jun/2015 13:26:18] "GET /experiance HTTP/1.1" 200 2955
+[09/Jun/2015 13:34:10] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[15/Jun/2015 10:00:32] "GET / HTTP/1.1" 200 1871
+[15/Jun/2015 10:00:33] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[15/Jun/2015 10:00:33] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[15/Jun/2015 10:00:35] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[15/Jun/2015 10:00:35] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[15/Jun/2015 10:00:35] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[15/Jun/2015 10:00:35] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[15/Jun/2015 10:00:38] "GET /step HTTP/1.1" 200 2088
+[15/Jun/2015 10:00:38] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[15/Jun/2015 10:00:38] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[15/Jun/2015 10:00:38] "GET /media/etape/step1.png HTTP/1.1" 200 12593
+[15/Jun/2015 10:00:38] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[15/Jun/2015 10:00:40] "GET /favicon.ico HTTP/1.1" 404 2699
+[15/Jun/2015 10:00:57] "GET /experiance HTTP/1.1" 200 2955
+[15/Jun/2015 10:00:57] "GET /media/unknown.png HTTP/1.1" 200 10977
+[15/Jun/2015 10:04:01] "POST /experiance HTTP/1.1" 200 3017
+[17/Jun/2015 18:51:20] "GET /robots.txt HTTP/1.1" 404 2696
+[17/Jun/2015 18:51:21] "GET /robots.txt HTTP/1.1" 404 2696
+[17/Jun/2015 18:51:21] "GET /experiance HTTP/1.1" 200 2955
+[17/Jun/2015 18:52:52] "GET /step HTTP/1.1" 200 2088
+[17/Jun/2015 18:53:08] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[19/Jun/2015 18:52:53] "GET /robots.txt HTTP/1.1" 404 2696
+[19/Jun/2015 18:52:54] "GET /step HTTP/1.1" 200 2088
+[20/Jun/2015 18:25:22] "GET / HTTP/1.1" 200 1871
+[20/Jun/2015 18:25:22] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[20/Jun/2015 18:25:53] "GET /favicon.ico HTTP/1.1" 404 2699
+[20/Jun/2015 18:25:53] "GET /favicon.ico HTTP/1.1" 404 2699
+[20/Jun/2015 18:25:59] "GET /step HTTP/1.1" 200 2088
+[20/Jun/2015 18:26:00] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[20/Jun/2015 18:26:00] "GET /media/etape/step1.png HTTP/1.1" 200 12593
+[20/Jun/2015 18:26:00] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[20/Jun/2015 18:26:00] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[20/Jun/2015 18:26:00] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[20/Jun/2015 18:26:00] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[20/Jun/2015 18:26:01] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[20/Jun/2015 18:26:01] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[20/Jun/2015 18:26:21] "GET /experiance HTTP/1.1" 200 2955
+[20/Jun/2015 18:26:21] "GET /media/unknown.png HTTP/1.1" 200 10977
+[20/Jun/2015 18:26:21] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[20/Jun/2015 18:26:40] "POST /experiance HTTP/1.1" 200 11221
+[20/Jun/2015 18:26:40] "GET /media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus/moy.jpg HTTP/1.1" 200 2589
+[20/Jun/2015 18:26:40] "GET /media/Database/BBAFaces/happy/s01.jpg.jpg HTTP/1.1" 200 4401
+[20/Jun/2015 18:26:40] "GET /media/Database/BBAFaces/bottomlight/s06.jpg.jpg HTTP/1.1" 200 4467
+[20/Jun/2015 18:26:40] "GET /media/Database/BBAFaces/glasses/s07.jpg.jpg HTTP/1.1" 200 4787
+[20/Jun/2015 18:26:40] "GET /media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus/eigenface0.jpg HTTP/1.1" 200 476
+[20/Jun/2015 18:26:40] "GET /media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus/eigenface1.jpg HTTP/1.1" 200 3418
+[20/Jun/2015 18:26:40] "GET /media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus/photo.jpg HTTP/1.1" 200 4970
+[20/Jun/2015 18:26:40] "GET /media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus/eigenface2.jpg HTTP/1.1" 200 2943
+[20/Jun/2015 18:26:40] "GET /media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus/eigenface3.jpg HTTP/1.1" 200 4810
+[20/Jun/2015 18:26:40] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[20/Jun/2015 18:26:40] "GET /media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus/dist.png HTTP/1.1" 200 23894
+[21/Jun/2015 14:46:55] "GET / HTTP/1.1" 200 1871
+[21/Jun/2015 14:46:55] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[21/Jun/2015 14:46:56] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[21/Jun/2015 14:46:57] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[21/Jun/2015 14:46:57] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[21/Jun/2015 14:46:57] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[21/Jun/2015 14:46:57] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[21/Jun/2015 14:46:59] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[21/Jun/2015 14:46:59] "GET /favicon.ico HTTP/1.1" 404 2699
+[21/Jun/2015 14:47:00] "GET /favicon.ico HTTP/1.1" 404 2699
+[21/Jun/2015 14:47:00] "GET /experiance HTTP/1.1" 200 2955
+[21/Jun/2015 14:47:00] "GET /media/unknown.png HTTP/1.1" 200 10977
+[21/Jun/2015 14:47:00] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 31, 2015 - 10:37:26
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+le fichier existe -----> media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb
+le fichier existe -----> media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb
+le fichier existe -----> media/tmp/1ze4hly34qoy8kch7xlc7k2zrdb032mb
+(11408, 256)
+13486.0
+fichier cree ---> media/tmp/u2yifpwkp4b94x880u9zeopo7k0jl4w5
+fichier cree ---> media/tmp/4zbkrgejde128fmn25l2cv5jdsnr3gjk
+fichier cree ---> media/tmp/a1gjknvxdqvnnm05zf0ddfy1urx9qs3o
+le fichier existe -----> media/tmp/a1gjknvxdqvnnm05zf0ddfy1urx9qs3o
+fichier cree ---> media/tmp/3v8jlsrk97lufokzairuny9und9sksgg
+fichier cree ---> media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus
+le fichier existe -----> media/tmp/lhq1a7mkofzwmuhvq6sixt346ezpybus
+(11408, 256)
+12969.0
+fichier cree ---> media/tmp/9ba1ca7jgz3rkpj0po0q2is4friauv0m
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 11:31:47
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 11:43:42
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 11:44:39
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 11:45:05
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 11:45:26
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 11:48:57
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 12:10:35
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 12:13:51
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 12:17:01
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 12:22:32
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 23, 2015 - 12:24:35
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 26, 2015 - 05:46:39
+Django version 1.7.6, using settings 'face.settings'
+Starting development server at http://0.0.0.0:1338/
+Quit the server with CONTROL-C.
+[28/Jun/2015 17:25:18] "GET /robots.txt HTTP/1.1" 404 2696
+[28/Jun/2015 17:25:19] "GET /experiance HTTP/1.1" 200 2955
+[28/Jun/2015 17:28:06] "GET /step HTTP/1.1" 200 2088
+[28/Jun/2015 22:58:04] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[28/Jun/2015 23:14:51] "GET /step HTTP/1.1" 200 2088
+[07/Jul/2015 10:56:48] "GET / HTTP/1.1" 200 1871
+[07/Jul/2015 10:56:49] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[07/Jul/2015 10:56:54] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[07/Jul/2015 10:56:55] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[07/Jul/2015 10:56:55] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[07/Jul/2015 10:56:55] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[07/Jul/2015 10:56:56] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[07/Jul/2015 10:57:00] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[07/Jul/2015 10:57:03] "GET /step HTTP/1.1" 200 2088
+[07/Jul/2015 10:57:07] "GET /media/etape/step1.png HTTP/1.1" 200 12593
+[07/Jul/2015 10:57:07] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[07/Jul/2015 10:57:08] "GET /favicon.ico HTTP/1.1" 404 2699
+[07/Jul/2015 10:57:21] "GET /home HTTP/1.1" 200 1871
+[08/Jul/2015 02:20:04] "GET /robots.txt HTTP/1.1" 404 2696
+[08/Jul/2015 02:20:05] "GET / HTTP/1.1" 200 1871
+[08/Jul/2015 03:04:44] "GET /step HTTP/1.1" 200 2088
+[11/Jul/2015 10:41:51] "GET /robots.txt HTTP/1.1" 404 2696
+[11/Jul/2015 10:41:51] "GET /step HTTP/1.1" 200 2088
+[11/Jul/2015 16:20:24] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[13/Jul/2015 07:27:43] "GET /robots.txt HTTP/1.1" 404 2696
+[13/Jul/2015 07:27:44] "GET / HTTP/1.1" 200 1871
+[13/Jul/2015 17:12:26] "GET / HTTP/1.1" 200 1871
+[13/Jul/2015 19:57:54] "GET /experiance HTTP/1.1" 200 2955
+[13/Jul/2015 19:57:55] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[13/Jul/2015 19:57:55] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[13/Jul/2015 19:57:56] "GET /media/unknown.png HTTP/1.1" 200 10977
+[13/Jul/2015 19:57:56] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[13/Jul/2015 19:57:56] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[13/Jul/2015 19:57:56] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[13/Jul/2015 19:57:57] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[13/Jul/2015 19:57:57] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[13/Jul/2015 19:57:58] "GET /favicon.ico HTTP/1.1" 404 2699
+[13/Jul/2015 19:57:58] "GET /favicon.ico HTTP/1.1" 404 2699
+[15/Jul/2015 07:55:17] "GET / HTTP/1.1" 200 1871
+[15/Jul/2015 07:55:18] "GET /static/css/elab.css HTTP/1.1" 304 0
+[15/Jul/2015 07:55:18] "GET /static/jquery.min.js HTTP/1.1" 304 0
+[15/Jul/2015 07:55:19] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[15/Jul/2015 07:55:19] "GET /static/css/images/bg.gif HTTP/1.1" 304 0
+[15/Jul/2015 07:55:19] "GET /static/css/images/network_s.png HTTP/1.1" 304 0
+[15/Jul/2015 07:55:19] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 304 0
+[15/Jul/2015 07:55:20] "GET /static/css/images/bg_nav.gif HTTP/1.1" 304 0
+[15/Jul/2015 07:55:20] "GET /favicon.ico HTTP/1.1" 404 2699
+[15/Jul/2015 07:55:21] "GET /favicon.ico HTTP/1.1" 404 2699
+[15/Jul/2015 07:55:21] "GET /step HTTP/1.1" 200 2088
+[15/Jul/2015 07:55:22] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[15/Jul/2015 07:55:23] "GET /media/etape/step2.png HTTP/1.1" 304 0
+[15/Jul/2015 07:55:23] "GET /media/etape/step1.png HTTP/1.1" 304 0
+[15/Jul/2015 07:55:26] "GET /favicon.ico HTTP/1.1" 404 2699
+[15/Jul/2015 07:55:27] "GET /favicon.ico HTTP/1.1" 404 2699
+[15/Jul/2015 07:55:33] "GET /experiance HTTP/1.1" 200 2955
+[15/Jul/2015 07:55:34] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[15/Jul/2015 07:55:34] "GET /media/unknown.png HTTP/1.1" 304 0
+[15/Jul/2015 08:00:20] "GET / HTTP/1.1" 200 1871
+[15/Jul/2015 08:00:21] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[15/Jul/2015 08:00:23] "GET /step HTTP/1.1" 200 2088
+[15/Jul/2015 08:00:23] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[15/Jul/2015 08:00:24] "GET /experiance HTTP/1.1" 200 2955
+[15/Jul/2015 08:00:25] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+/usr/lib/pymodules/python2.7/matplotlib/__init__.py:923: UserWarning:  This call to matplotlib.use() has no effect
+because the the backend has already been chosen;
+matplotlib.use() must be called *before* pylab, matplotlib.pyplot,
+or matplotlib.backends is imported for the first time.
+
+  if warn: warnings.warn(_use_error_msg)
+
+[15/Jul/2015 08:00:42] "POST /experiance HTTP/1.1" 200 11075
+[15/Jul/2015 08:00:43] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/moy.jpg HTTP/1.1" 200 2589
+[15/Jul/2015 08:00:43] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/eigenface0.jpg HTTP/1.1" 200 476
+[15/Jul/2015 08:00:43] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/eigenface1.jpg HTTP/1.1" 200 3418
+[15/Jul/2015 08:00:43] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/eigenface2.jpg HTTP/1.1" 200 2943
+[15/Jul/2015 08:00:43] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/eigenface3.jpg HTTP/1.1" 200 4810
+[15/Jul/2015 08:00:43] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[15/Jul/2015 08:00:44] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/photo.jpg HTTP/1.1" 200 5340
+[15/Jul/2015 08:00:44] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/reco.jpg HTTP/1.1" 200 4775
+[15/Jul/2015 08:00:44] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/dist.png HTTP/1.1" 200 18544
+[15/Jul/2015 08:00:44] "GET /media/Database/BBAFaces/happy/s01.jpg.jpg HTTP/1.1" 304 0
+[15/Jul/2015 08:00:44] "GET /media/Database/BBAFaces/bottomlight/s06.jpg.jpg HTTP/1.1" 304 0
+[15/Jul/2015 08:00:44] "GET /media/Database/BBAFaces/glasses/s07.jpg.jpg HTTP/1.1" 304 0
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 127, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 215, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 582, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 86, in run
+    self.finish_response()
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 127, in finish_response
+    self.write(data)
+  File "/usr/lib/python2.7/wsgiref/handlers.py", line 215, in write
+    self._write(data)
+  File "/usr/lib/python2.7/socket.py", line 324, in write
+    self.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 582, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 323, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 129, in __init__
+    super(WSGIRequestHandler, self).__init__(*args, **kwargs)
+  File "/usr/lib/python2.7/SocketServer.py", line 640, in __init__
+    self.finish()
+  File "/usr/lib/python2.7/SocketServer.py", line 693, in finish
+    self.wfile.flush()
+  File "/usr/lib/python2.7/socket.py", line 303, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+[15/Jul/2015 08:04:01] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/mean_face.txt HTTP/1.1" 200 38784
+[15/Jul/2015 08:12:00] "GET /media/tmp/skz1upzag9wwvaqvex64qpb7mnsy6dtb/faces.txt HTTP/1.1" 200 11030004
+[16/Jul/2015 05:14:02] "GET /robots.txt HTTP/1.1" 404 2696
+[16/Jul/2015 05:14:04] "GET /favicon.ico HTTP/1.1" 404 2699
+[23/Jul/2015 09:34:32] "GET /robots.txt HTTP/1.1" 404 2696
+[23/Jul/2015 09:34:35] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[23/Jul/2015 11:03:11] "GET /media/etape/step1.png HTTP/1.1" 200 12593
+[23/Jul/2015 11:45:10] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[02/Aug/2015 12:00:55] "GET /robots.txt HTTP/1.1" 404 2696
+[02/Aug/2015 12:00:55] "GET /step HTTP/1.1" 200 2088
+[02/Aug/2015 12:31:24] "GET / HTTP/1.1" 200 1871
+[02/Aug/2015 18:40:56] "GET /robots.txt HTTP/1.1" 404 2696
+[02/Aug/2015 18:41:01] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[02/Aug/2015 20:08:18] "GET / HTTP/1.1" 200 1871
+[07/Aug/2015 14:25:09] "GET / HTTP/1.1" 200 1871
+[07/Aug/2015 14:25:10] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[07/Aug/2015 14:25:10] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[07/Aug/2015 14:25:11] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[07/Aug/2015 14:25:11] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[07/Aug/2015 14:25:11] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[07/Aug/2015 14:25:12] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[07/Aug/2015 18:09:02] "GET / HTTP/1.1" 200 1871
+[07/Aug/2015 18:09:02] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[07/Aug/2015 18:09:03] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[07/Aug/2015 18:09:05] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[07/Aug/2015 18:09:05] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[07/Aug/2015 18:09:05] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[07/Aug/2015 18:09:06] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[07/Aug/2015 18:09:07] "GET /favicon.ico HTTP/1.1" 404 2699
+[07/Aug/2015 18:09:07] "GET /favicon.ico HTTP/1.1" 404 2699
+[07/Aug/2015 18:09:08] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[07/Aug/2015 18:09:09] "GET /experiance HTTP/1.1" 200 2955
+[07/Aug/2015 18:09:09] "GET /media/unknown.png HTTP/1.1" 200 10977
+[07/Aug/2015 18:09:09] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[16/Aug/2015 03:16:42] "GET /robots.txt HTTP/1.1" 404 2696
+[16/Aug/2015 03:16:43] "GET / HTTP/1.1" 200 1871
+[16/Aug/2015 03:18:27] "GET /step HTTP/1.1" 200 2088
+[16/Aug/2015 03:20:07] "GET /a_propos HTTP/1.1" 200 1446
+[16/Aug/2015 03:20:52] "GET /home HTTP/1.1" 200 1871
+[16/Aug/2015 03:21:05] "GET /experiance HTTP/1.1" 200 2955
+[19/Aug/2015 20:33:06] "GET /step HTTP/1.1" 200 2088
+[19/Aug/2015 20:33:07] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[19/Aug/2015 20:33:09] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[19/Aug/2015 20:34:12] "GET /media/etape/step1.png HTTP/1.1" 200 12593
+[19/Aug/2015 20:34:12] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[19/Aug/2015 20:34:12] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[19/Aug/2015 20:34:12] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[19/Aug/2015 20:34:12] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[19/Aug/2015 20:34:17] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[19/Aug/2015 20:34:20] "GET /favicon.ico HTTP/1.1" 404 2699
+[19/Aug/2015 20:34:21] "GET /favicon.ico HTTP/1.1" 404 2699
+[19/Aug/2015 21:55:20] "GET /robots.txt HTTP/1.1" 404 2696
+[19/Aug/2015 21:55:21] "GET / HTTP/1.1" 200 1871
+[20/Aug/2015 02:38:41] "GET /step HTTP/1.1" 200 2088
+[21/Aug/2015 19:36:49] "GET /robots.txt HTTP/1.1" 404 2696
+[21/Aug/2015 19:36:49] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[21/Aug/2015 19:36:50] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[22/Aug/2015 15:16:20] "GET / HTTP/1.1" 200 1871
+[22/Aug/2015 15:16:20] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[22/Aug/2015 15:16:21] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[22/Aug/2015 15:16:22] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[22/Aug/2015 15:16:22] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[22/Aug/2015 15:16:22] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[22/Aug/2015 15:16:23] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[22/Aug/2015 15:16:23] "GET /favicon.ico HTTP/1.1" 404 2699
+[22/Aug/2015 15:16:34] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[22/Aug/2015 15:16:35] "GET /step HTTP/1.1" 200 2088
+[22/Aug/2015 15:16:35] "GET /media/etape/step1.png HTTP/1.1" 200 12593
+[22/Aug/2015 15:16:35] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[22/Aug/2015 15:16:47] "GET /experiance HTTP/1.1" 200 2955
+[22/Aug/2015 15:16:48] "GET /media/unknown.png HTTP/1.1" 200 10977
+[29/Aug/2015 18:17:09] "GET /robots.txt HTTP/1.1" 404 2696
+[29/Aug/2015 18:17:11] "GET /media/etape/step1.png HTTP/1.1" 200 12593
+[29/Aug/2015 19:23:32] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[05/Sep/2015 23:24:18] "GET /robots.txt HTTP/1.1" 404 2696
+[05/Sep/2015 23:24:18] "GET / HTTP/1.1" 200 1871
+[06/Sep/2015 14:13:44] "GET /robots.txt HTTP/1.1" 404 2696
+[06/Sep/2015 14:13:44] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[06/Sep/2015 17:26:51] "GET / HTTP/1.1" 200 1871
+[07/Sep/2015 14:53:46] "GET /robots.txt HTTP/1.1" 404 2696
+[07/Sep/2015 14:53:47] "GET /favicon.ico HTTP/1.1" 404 2699
+[08/Sep/2015 12:55:15] "GET /robots.txt HTTP/1.1" 404 2696
+[08/Sep/2015 12:55:16] "GET /step HTTP/1.1" 200 2088
+[12/Sep/2015 06:19:50] "GET /robots.txt HTTP/1.1" 404 2696
+[12/Sep/2015 06:19:51] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[12/Sep/2015 06:58:24] "GET / HTTP/1.1" 200 1871
+[12/Sep/2015 09:00:53] "GET / HTTP/1.1" 200 1871
+[12/Sep/2015 13:25:18] "GET /step HTTP/1.1" 200 2088
+[12/Sep/2015 15:43:17] "GET /step HTTP/1.1" 200 2088
+[12/Sep/2015 17:21:46] "GET /step HTTP/1.1" 200 2088
+[12/Sep/2015 17:27:56] "GET / HTTP/1.1" 200 1871
+[12/Sep/2015 18:24:52] "GET /robots.txt HTTP/1.1" 404 2696
+[12/Sep/2015 18:24:52] "GET /step HTTP/1.1" 200 2088
+[12/Sep/2015 18:27:38] "GET /a_propos HTTP/1.1" 200 1446
+[12/Sep/2015 18:30:27] "GET / HTTP/1.1" 200 1871
+[13/Sep/2015 01:47:44] "GET /home HTTP/1.1" 200 1871
+[13/Sep/2015 08:31:54] "GET /robots.txt HTTP/1.1" 404 2696
+[13/Sep/2015 13:21:48] "GET / HTTP/1.1" 200 1871
+[13/Sep/2015 13:21:50] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[13/Sep/2015 13:21:51] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[13/Sep/2015 13:21:53] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[13/Sep/2015 13:21:53] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[13/Sep/2015 13:21:53] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[13/Sep/2015 13:21:53] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[13/Sep/2015 13:21:55] "GET /favicon.ico HTTP/1.1" 404 2699
+[13/Sep/2015 13:22:10] "GET / HTTP/1.1" 200 1871
+[14/Sep/2015 04:43:45] "GET /robots.txt HTTP/1.1" 404 2696
+[14/Sep/2015 04:43:45] "GET / HTTP/1.1" 200 1871
+[14/Sep/2015 06:59:24] "GET / HTTP/1.1" 200 1871
+[14/Sep/2015 07:44:22] "GET / HTTP/1.1" 200 1871
+[14/Sep/2015 07:44:22] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[14/Sep/2015 07:44:23] "GET /static/jquery.min.js HTTP/1.1" 200 95786
+[14/Sep/2015 07:44:23] "GET /static/css/images/bg.gif HTTP/1.1" 200 9816
+[14/Sep/2015 07:44:24] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[14/Sep/2015 07:44:24] "GET /static/css/images/bg_b_nav.gif HTTP/1.1" 200 720
+[14/Sep/2015 07:44:24] "GET /static/css/images/network_s.png HTTP/1.1" 200 169459
+[14/Sep/2015 07:44:25] "GET /static/css/images/bg_nav.gif HTTP/1.1" 200 696
+[14/Sep/2015 07:44:25] "GET /favicon.ico HTTP/1.1" 404 2699
+[14/Sep/2015 07:44:25] "GET /step HTTP/1.1" 200 2088
+[14/Sep/2015 07:44:25] "GET /favicon.ico HTTP/1.1" 404 2699
+[14/Sep/2015 07:44:26] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[14/Sep/2015 07:44:26] "GET /media/etape/step1.png HTTP/1.1" 200 12593
+[14/Sep/2015 07:44:26] "GET /media/etape/step2.png HTTP/1.1" 200 39152
+[14/Sep/2015 07:44:30] "GET /experiance HTTP/1.1" 200 2955
+[14/Sep/2015 07:44:30] "GET /media/unknown.png HTTP/1.1" 200 10977
+[14/Sep/2015 07:44:30] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[14/Sep/2015 07:44:32] "GET /step HTTP/1.1" 200 2088
+[14/Sep/2015 07:44:33] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[14/Sep/2015 07:44:34] "GET /home HTTP/1.1" 200 1871
+[14/Sep/2015 07:44:34] "GET /css/fonts/opensans-condlight.ttf HTTP/1.1" 404 2762
+[14/Sep/2015 12:02:13] "GET / HTTP/1.1" 200 1871
+[15/Sep/2015 07:17:07] "GET /robots.txt HTTP/1.1" 404 2696
+[15/Sep/2015 07:17:07] "GET / HTTP/1.1" 200 1871
+[15/Sep/2015 07:22:08] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[15/Sep/2015 09:17:18] "GET / HTTP/1.1" 200 1871
+[16/Sep/2015 02:49:47] "GET /robots.txt HTTP/1.1" 404 2696
+[16/Sep/2015 02:49:47] "GET / HTTP/1.1" 200 1871
+[16/Sep/2015 08:39:25] "GET /step HTTP/1.1" 200 2088
+[20/Sep/2015 23:38:02] "GET /robots.txt HTTP/1.1" 404 2696
+[20/Sep/2015 23:38:02] "GET / HTTP/1.1" 200 1871
+[20/Sep/2015 23:38:08] "GET /static/css/elab.css HTTP/1.1" 200 7713
+[20/Sep/2015 23:40:03] "GET /step HTTP/1.1" 200 2088
+[21/Sep/2015 00:09:04] "GET /step HTTP/1.1" 200 2088
+[21/Sep/2015 02:29:08] "GET /step HTTP/1.1" 200 2088
+[21/Sep/2015 04:10:38] "GET / HTTP/1.1" 200 1871
+[21/Sep/2015 11:07:59] "GET /step HTTP/1.1" 200 2088
+[22/Sep/2015 13:19:34] "GET /robots.txt HTTP/1.1" 404 2696
+[22/Sep/2015 13:19:34] "GET / HTTP/1.1" 200 1871

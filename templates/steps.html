@@ -1,0 +1,35 @@
+{% extends 'elab.html' %}
+{% block title %}Etapes{% endblock %}
+{% block nav %}
+    <div class="menu">
+        <ul>
+            <li><a href="http://labdz.info/vlab/" target="_self" >Home</a></li>
+            <li><a href="{% url 'facereco.views.home' %}" target="_self" >Introduction</a></li>
+            <li><sel><a href="{% url 'facereco.views.step' %}">Etapes</a></sel></li>
+            <li><a href="{% url 'facereco.views.experiance' %}" target="_self" >Experimentation</a></li>
+            <li><a href="{% url 'facereco.views.propos' %}" target="_self" >A propos</a></li>
+	    </ul>
+    </div>
+{% endblock %}
+{% block content %}
+
+    <ul>
+        <li>
+            <p>Chergez une photo de dimenssion 124x92</p><br>
+            <center><img src="{{ MEDIA_URL }}etape/step2.png" width="70%" style="-webkit-box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);"></center><br>
+        </li>
+
+        <li>
+            <p>Cliquer sur le titre pour afficher le résultat de la 1er étape</p><br>
+            <center>
+                <img src="{{ MEDIA_URL }}etape/step1.png" width="70%" style="-webkit-box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 31px -2px rgba(0,0,0,0.75);">
+            </center><br>
+        </li>
+
+    </ul>
+
+{% endblock %}
